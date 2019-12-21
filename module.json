@@ -1,0 +1,13 @@
+{
+    "disableAutoUpdate": false,
+    "name": "Akalath Quarantine (Verrak Fortress) Dungon Guide",
+    "options": {
+        "niceName": "AQ(VF) Guide",
+        "guiName": "AQ(VF) Guide"
+    },
+    "author": "ZC / Witch(English)",
+    "description": "Akalath Quarantine (Verrak Fortress) Guide",
+    "servers": ["https://raw.githubusercontent.com/Witch-hue/Akalath-Quarantine-Guide/master/"],
+    "supportUrl": "https://github.com/Witch-hue/Akalath-Quarantine-Guide/issues",
+    "version": "88"
+}
