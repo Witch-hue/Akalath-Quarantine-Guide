@@ -19,8 +19,8 @@ module.exports = {
 		{id: 2114, msg: 'Right Slash'}, // 2111 2114
 		{id: 1115, msg: 'Backslash'},
 		{id: 2115, msg: 'Backslash'},
-		{id: 1116, msg: 'Explosion (Shield)!!'}, // 1117
-		{id: 2116, msg: 'Explosion (Shield)!!'}, // 2117
+		{id: 1116, msg: 'Explosion (Shield/Kaias)'}, // 1117
+		{id: 2116, msg: 'Explosion (Shield/Kaias)'}, // 2117
 		{id: 3107, msg: 'Forward Wave'},
 		{id: 3115, msg: 'Spin'}, // 1106 2106
 		{id: 3116, msg: 'Circles + Spin'}, // 1106 2106
@@ -35,7 +35,7 @@ module.exports = {
 		// 214 Triple Rocks 181
 		{id: 182, msg: 'Stomp (Knockdown)'}, // 183 184
 		// 302 209 Stomp (Knockdown) 182 183 184
-		{id: 185, msg: 'Explosion (Shield//Kaias)'},
+		{id: 185, msg: 'Explosion (Shield/Kaias)'},
 		{id: 202, msg: 'Back + Front Stab'},  // 177
 		{id: 207, msg: 'AimBack (Bleed)'}, // 204 206 205
 		{id: 212, msg: 'Bait (Bleed)'}    // 180

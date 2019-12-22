@@ -1,8 +1,7 @@
 Akalath Quarantine (Verrak Fortress) Guide Patch 88
 ======
 
-My Notes:
-
+Notes:
 Changed /8 Proxy commands from "guide" to "aq" or "vf" so it does not have issues with other commonly used Dungeon guides.
 
 
