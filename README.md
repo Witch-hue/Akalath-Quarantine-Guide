@@ -1,10 +1,17 @@
 Akalath Quarantine (Verrak Fortress) Guide Patch 88
 ======
 
+My Notes:
+
+Changed /8 Proxy commands from "guide" to "aq" or "vf" so it does not have issues with other commonly used Dungeon guides.
+
+
 # AQ(VF) Dungeon Guide
 
 Original Guide: https://github.com/tera-mod/TERA-Guide from ZC.
-Translated to English.
+
+Translated to English by: https://github.com/pepsimemen Pepsi
+
 ------
 
 Commands
