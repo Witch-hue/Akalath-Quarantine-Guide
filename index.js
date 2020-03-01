@@ -1,5 +1,5 @@
 let {DungeonInfo,
-	 SOH_BOSS_1,  SOH_BOSS_2,  SOH_BOSS_3, SOH_TipMsg
+	 AQ_BOSS_1,  AQ_BOSS_2
 } = require('./boss');
 
 module.exports = function Tera_Guide(mod) {
@@ -37,13 +37,13 @@ module.exports = function Tera_Guide(mod) {
 		levelMsg           = [],    // 充能文字 数组
 		// AQ
 		myColor            = null,  // 红蓝诅咒
-		// SOH
+		// SI
 		bossBuff           = 0,     // 紫绿武器
 		// CK
 		myDeBuff           = null,  // 业火/寒气
 		bossWord           = null;  // 愤怒/恐惧
 	// 控制命令
-	mod.command.add(["SOH"], (arg) => {
+	mod.command.add(["aq", "vf"], (arg) => {
 		if (!arg) {
 			Enabled = !Enabled;
 			mod.command.message("辅助提示(Guide) " + (Enabled ? "启用(ON)" : "禁用(OFF)"));
@@ -153,7 +153,7 @@ module.exports = function Tera_Guide(mod) {
 		levelMsg           = [];
 		// AQ_1王
 		myColor            = null;
-		// SOH_3王
+		// SI_3王
 		bossBuff           = 0;
 		// CK
 		myDeBuff           = null;
@@ -306,7 +306,7 @@ module.exports = function Tera_Guide(mod) {
 			UpdateMarkers();
 
 			if (mod.game.me.is(event.target)) {
-				mod.setTimeout(() => { sendMessage(SOH_TipMsg[2], 25); }, 2000);
+				mod.setTimeout(() => { sendMessage(SI_TipMsg[2], 25); }, 2000);
 			}
 		}
 
@@ -602,19 +602,19 @@ module.exports = function Tera_Guide(mod) {
 			sendMessage(bossSkillID.msg);
 		}
 
-		// SOH_1王
+		// SI_1王
 		else if (whichmode==3020 && event.templateId==1900) {
-			if (event.stage!=0 || !(bossSkillID = SOH_BOSS_1.find(obj => obj.id==skillid))) return;
+			if (event.stage!=0 || !(bossSkillID = SI_BOSS_1.find(obj => obj.id==skillid))) return;
 			sendMessage(bossSkillID.msg);
 		}
-		// SOH_2王
+		// SI_2王
 		else if (whichmode==3020 && event.templateId==1200) {
-			if (event.stage!=0 || !(bossSkillID = SOH_BOSS_2.find(obj => obj.id==skillid))) return;
+			if (event.stage!=0 || !(bossSkillID = SI_BOSS_2.find(obj => obj.id==skillid))) return;
 			sendMessage(bossSkillID.msg);
 		}
-		// SOH_3王
+		// SI_3王
 		else if (whichmode==3020 && event.templateId==2200) {
-			if (!(bossSkillID = SOH_BOSS_3.find(obj => obj.id==skillid))) return;
+			if (!(bossSkillID = SI_BOSS_3.find(obj => obj.id==skillid))) return;
 			// 三连击 开始技能
 			if (skillid==121 || skillid==122) {
 				bossBuff = skillid;
@@ -622,7 +622,7 @@ module.exports = function Tera_Guide(mod) {
 			}
 			// 三连击 结束技能
 			if (skillid==123 || skillid==120) {		// 126 大前砸 / 134 大转圈
-				TipMsg = SOH_TipMsg[(bossBuff+skillid) % 241];
+				TipMsg = SI_TipMsg[(bossBuff+skillid) % 241];
 			} else {
 				TipMsg = "";
 			}
