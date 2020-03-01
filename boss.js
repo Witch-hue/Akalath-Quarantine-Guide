@@ -1,36 +1,43 @@
 module.exports = {
 	// Entering the dungeon
 	DungeonInfo : [
-		{zone: 3020, string: 'Welcome to <font color="#56B4E9">Sea of Honor</font>'},
+		{zone: 3023, string: 'Entering the dungeon <font color="#56B4E9">Akalath Quarantine (Verrak Fortress)</font>'}
 	],
-
-	// 金麟號 (Sailing Instance)
-	SOH_BOSS_1 : [
-		{id: 104, msg: 'Suction (Dodge)'}
+	// Akalath Quarantine (Verrak Fortress)
+	AQ_BOSS_1 : [
+		{id: 1104, msg: 'Jump Stun'},
+		{id: 2104, msg: 'Jump Stun'},
+		{id: 1110, msg: 'Front Stun'},
+		{id: 2110, msg: 'Front Stun'},
+		{id: 1111, msg: 'Left Slash'},
+		{id: 1113, msg: 'Left Slash'}, // 1112 1113
+		{id: 2111, msg: 'Left Slash'},
+		{id: 2113, msg: 'Left Slash'}, // 2112 2113
+		{id: 1112, msg: 'Right Slash'},
+		{id: 1114, msg: 'Right Slash'}, // 1111 1114
+		{id: 2112, msg: 'Right Slash'},
+		{id: 2114, msg: 'Right Slash'}, // 2111 2114
+		{id: 1115, msg: 'Backslash'},
+		{id: 2115, msg: 'Backslash'},
+		{id: 1116, msg: 'Explosion (Shield/Kaias)'}, // 1117
+		{id: 2116, msg: 'Explosion (Shield/Kaias)'}, // 2117
+		{id: 3107, msg: 'Forward Wave'},
+		{id: 3115, msg: 'Spin'}, // 1106 2106
+		{id: 3116, msg: 'Circles + Spin'}, // 1106 2106
+		{id: 3119, msg: 'Debuff ', TIP: ["Get OUT", "Get IN"]}, // Red OUT | Blue IN
+		{id: 3220, msg: 'Debuff ', TIP: ["Get IN", "Get OUT"]}  // Red IN | Blue OUT
 	],
-	SOH_BOSS_2 : [
-		{id: 103, msg: 'Suction (Dodge)'}
-	],
-	SOH_BOSS_3 : [
-		{id: 108, msg: 'Front Stun'},
-		{id: 128, msg: 'Upper cut (Knock up)'},
-		{id: 129, msg: 'Hammer Toss ~ Skull'},
-		{id: 135, msg: "Puddles Inc (Jump)"},
-		{id: 204, msg: "30% Warning"},
-		{id: 137, msg: 'Outward Pluse'},
-		{id: 139, msg: 'Inward Succ'},  //Lol the work Suck is censored...
-		{id: 133, msg: 'Secondary Aggro Jump -> Outward Donuts'},
-		{id: 127, msg: 'Jump ->', TIP: ["In Safe", "Out Safe"]},
-
-		{id: 121, msg: ''},         // Smash Forward (Out)| Turn (Inside) (Green)_Go In  +No.1 buff
-		{id: 122, msg: ''},         // Circle (Inside) | Smashing(Outside) (Purple)_Get Out  +No.1 buff
-	//  {id: 124, msg: 'Hammer'},     // 1st Strike, 2nd Strike
-	//  {id: 125, msg: 'Circle'},     // 1st Strike, 2nd Strike
-		{id: 123, msg: ''},         // Charge Hammer | ↓(Out)↓ (Green)_Explosion  +No.2 buff
-		{id: 120, msg: ''},         // Charged Circle | ↑(In)↑ (Purple)_Abyss  +No.2 buff
-	//  {id: 126, msg: '大前砸'},  // 3rd Strike
-	//  {id: 134, msg: '大转圈'},  // 3rd Strike
-	],
-	//           121+120=241 122+120=242           121+123=244 122+123=245
-	SOH_TipMsg : ["Out - In - In", "In - Out - In","Dodge!", "Out - In - Out", "In - Out - Out"],
+	AQ_BOSS_2 : [
+		{id: 164, msg: 'Hold (Bleed)'},
+		{id: 166, msg: 'Turn around'}, // 169 166 前搓 左购拳 右勾拳
+		{id: 175, msg: 'Roar (iframe)'},
+		{id: 181, msg: 'Rock'},
+		// 214 Triple Rocks 181
+		{id: 182, msg: 'Stomp (Knockdown)'}, // 183 184
+		// 302 209 Stomp (Knockdown) 182 183 184
+		{id: 185, msg: 'Explosion (Shield/Kaias)'},
+		{id: 202, msg: 'Back + Front Stab'},  // 177
+		{id: 207, msg: 'AimBack (Bleed)'}, // 204 206 205
+		{id: 212, msg: 'Bait (Bleed)'}    // 180
+	]
 }
