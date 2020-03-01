@@ -1,13 +1,13 @@
 {
     "disableAutoUpdate": false,
-    "name": "Akalath Quarantine (Verrak Fortress) Dungon Guide",
+    "name": "SOH-Guide",
     "options": {
-        "niceName": "AQ(VF) Guide",
-        "guiName": "AQ(VF) Guide"
+        "niceName": "Sea of Honor",
+        "guiName": "SOH(Guide)"
     },
-    "author": "ZC / Pepsi / Witch",
-    "description": "Akalath Quarantine (Verrak Fortress) Guide",
-    "servers": ["https://raw.githubusercontent.com/Witch-hue/Akalath-Quarantine-Guide/master/"],
-    "supportUrl": "https://github.com/Witch-hue/Akalath-Quarantine-Guide/issues",
-    "version": "88"
+    "author": "ZC / Witch",
+    "description": "Sea of Honor Guide",
+    "servers": ["https://raw.githubusercontent.com/Witch-hue/Sea-Of-Honor/master/"],
+    "supportUrl": "https://github.com/tera-mod/Witch-hue/Sea-Of-Honor/issues",
+    "version": "90.02"
 }

@@ -1,32 +1,22 @@
 {
     "files": {
-        "README.md": "ba178eb21c9acb08dd6d39c009722d2964fb8a9cae0e4e6908d25e12debb858d",
-        "TEST_JS_Inspect.bat": "89002cee1d529817c33ef7b9d1967aa3e7f4f0ee0442e22a56e09d1f6821bd35",
-        "boss.js": "8a7550c29d1463bd58841560e8069d991e79fcce70933cd10e4964d7743b51f4",
-        "index.js": "93eb4644dede70ff1ca50a385641c6578e259a17deba10141c7c4222c8679a42",
-        "module.json": "0b50de4b593d72758a6e9d745d19cf5369af70f3c62c81304a17ca8e5ef589ad"
+        "README.md": "c7c251d0ac2b29ed6ab5e1a288077cdf112567855bb8cc4c75bfe2bb900819ce",
+        "boss.js": "0cdde09eec05d89fcbbf14de377983dd8aee4b1453df82ec3b833beff89e7176",
+        "index.js": "9d35d033101c567f19abdd2be490b799c87567a0a209bff166511322e1cea592",
+        "module.json": "5896cbbeafc2dec4599bfbb7d92ade8c2133e77ee7319a8e86d2053923ad5043"
     },
     "defs": {
-        "C_PLAYER_LOCATION": 5,
         "S_ABNORMALITY_BEGIN": 4,
         "S_ABNORMALITY_END": 1,
-        "S_ABNORMALITY_REFRESH": 2,
         "S_ACTION_STAGE": 9,
         "S_BOSS_GAGE_INFO": 3,
         "S_CHAT": 3,
         "S_CREATURE_ROTATE": 2,
-        "S_DESPAWN_BUILD_OBJECT": 2,
-        "S_DESPAWN_COLLECTION": 2,
-        "S_DESPAWN_DROPITEM": 4,
         "S_DUNGEON_EVENT_MESSAGE": 2,
         "S_LEAVE_PARTY": 1,
         "S_LEAVE_PARTY_MEMBER": 2,
+        "S_PARTY_MARKER": 1,
         "S_PARTY_MEMBER_LIST": 7,
-        "S_QUEST_BALLOON": 1,
-        "S_SPAWN_BUILD_OBJECT": 2,
-        "S_SPAWN_COLLECTION": 4,
-        "S_SPAWN_DROPITEM": 8,
-        "S_SPAWN_NPC": 11,
-        "S_SPAWN_PROJECTILE": 5
+        "S_QUEST_BALLOON": 1
     }
 }
